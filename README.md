@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customer Management API
 
 ## Run Locally
@@ -24,3 +25,7 @@ http://localhost:8080/swagger-ui.html
 ## Assumptions
 - Tier is derived dynamically and not stored
 - UUID is generated on creation only
+=======
+# Customer-Management-API
+Customer Management API
+>>>>>>> origin/main

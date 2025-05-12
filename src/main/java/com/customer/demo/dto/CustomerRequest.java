@@ -39,6 +39,11 @@ public class CustomerRequest {
 	public LocalDateTime getLastPurchaseDate() {
 		return lastPurchaseDate;
 	}
+	@Override
+	public String toString() {
+		return "CustomerRequest [name=" + name + ", email=" + email + ", annualSpend=" + annualSpend
+				+ ", lastPurchaseDate=" + lastPurchaseDate + "]";
+	}
 	public void setLastPurchaseDate(LocalDateTime lastPurchaseDate) {
 		this.lastPurchaseDate = lastPurchaseDate;
 	}
